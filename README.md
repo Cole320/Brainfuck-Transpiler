@@ -19,15 +19,6 @@ Command | Action
 ``[``   | if the current cell is 0, jump to the matching ``]``
 ``]``   | if the current cell is **not** 0, jump to the matching ``[``
 
-**Note:**
-My implementation of Brainfuck is memory safe.
-In other words, using ``<`` from cell 0 will wrap around to the
-last cell, and using ``>`` from the last cell will wrap around to
-the first cell, eliminating the possibility of dangling pointers.
-
-If you would like to learn more about the brainfuck language,
-you can check out [the esolangs wiki.](http://esolangs.org/wiki/brainfuck)
-
 If you would like to try to master the language, feel free to build my interpreter on
 your system (instructions below)
 or try out this [nifty brainfuck visualizer.](http://fatiherikli.github.io/brainfuck-visualizer/)
