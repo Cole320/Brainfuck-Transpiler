@@ -19,10 +19,6 @@ Command | Action
 ``[``   | if the current cell is 0, jump to the matching ``]``
 ``]``   | if the current cell is **not** 0, jump to the matching ``[``
 
-If you would like to try to master the language, feel free to build my interpreter on
-your system (instructions below)
-or try out this [nifty brainfuck visualizer.](http://fatiherikli.github.io/brainfuck-visualizer/)
-
 # Examples:
 ```bf
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
