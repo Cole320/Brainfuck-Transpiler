@@ -49,9 +49,10 @@ for char in formatted_code:
             
         if char == '[':
             python_code += indent * indentation + "while memory[pointer] != 0:\n"
-            indentation += 1
+            indentation += 2
         
         if char == ']':
+            python_code += indent * indentation + "pass\n"
             indentation = indentation - 1
             
 output_file.write(python_code)
