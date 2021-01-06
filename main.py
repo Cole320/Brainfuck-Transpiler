@@ -49,7 +49,7 @@ for char in formatted_code:
             
         if char == '[':
             python_code += indent * indentation + "while memory[pointer] != 0:\n"
-            indentation += 2
+            indentation += 1
         
         if char == ']':
             python_code += indent * indentation + "pass\n"
